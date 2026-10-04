@@ -1,0 +1,36 @@
+/* Custom styles on top of Bootstrap 5 */
+:root {
+  --spurs-navy: #132257;
+}
+
+body {
+  background-color: #f4f6fb;
+}
+
+.spurs-header {
+  background-color: var(--spurs-navy);
+  color: #fff;
+}
+
+.spurs-header p {
+  opacity: 0.85;
+}
+
+.spurs-title {
+  color: var(--spurs-navy);
+  border-bottom: 3px solid var(--spurs-navy);
+  padding-bottom: 0.4rem;
+}
+
+.spurs-subtitle {
+  color: var(--spurs-navy);
+}
+
+.era strong {
+  color: var(--spurs-navy);
+}
+
+.table thead.spurs-thead th {
+  background-color: var(--spurs-navy);
+  color: #fff;
+}
